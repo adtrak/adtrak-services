@@ -286,7 +286,6 @@ const QUERY = `
                 protectedNameservers
                 dedicatedDdosProtection
                 recommendedForEcommerce
-                reactiveServerMonitoring
                 threatProtection
               }
               ... on InternetMarketingTierRecord {
