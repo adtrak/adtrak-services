@@ -283,13 +283,10 @@ const QUERY = `
                 backups
                 uptime
                 unlimitedVisitors
-                dedicatedHighAvailabilityArchitecture
                 protectedNameservers
                 dedicatedDdosProtection
                 recommendedForEcommerce
-                clickfraudPpcProtection
                 reactiveServerMonitoring
-                regularSecurityPatching
                 threatProtection
               }
               ... on InternetMarketingTierRecord {
