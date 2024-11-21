@@ -301,15 +301,12 @@ const QUERY = `
                 googleMyBusiness
                 quarterlyPerformanceReview
                 rankTracking
-                ongoingOptimisation
-                backlinkProfileAnalysis
                 advancedLinkBuilding
                 articleManagement
                 reviewsManagement
                 siteSpeedManagement
                 contentMarketing
                 uxAnalysis
-                cro
                 extendedLandingPages
                 digitalPr
                 graphicDesign
@@ -436,8 +433,9 @@ const QUERY = `
 `
 
 export async function getStaticProps({ params }) {
+  try {
     const slug = params;
-    
+  
     const data = await request({
         query: QUERY,
         variables: slug,
@@ -446,6 +444,9 @@ export async function getStaticProps({ params }) {
     return {
         props: { data }
     }
+  } catch (error) {
+      console.error("Error fetching data:", error); // Log the full error
+  }
 }
 
 
