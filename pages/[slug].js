@@ -303,18 +303,31 @@ const QUERY = `
                 rankTracking
                 advancedLinkBuilding
                 articleManagement
+                advancedRankTracking
+                additionalMapsListings
                 reviewsManagement
                 siteSpeedManagement
+                croLite
+                splitTesting
                 contentMarketing
                 uxAnalysis
+                neuronsCro
+                newServicePages
                 extendedLandingPages
+                competitorAnalysis
+                leadQualityAiAnalysis
+                videography
+                photography
+                animation
                 digitalPr
+                enquiryHandlingAnalysis
+                emailMarketing
+                digitalStrategist
                 graphicDesign
+                researchDevelopment
                 organicSocialMedia
                 paidSocialMedia
-                photography
-                videography
-                animation
+                businessDevelopmentConsultancy
               }
               ... on PaidMarketingTierRecord {
                 title
